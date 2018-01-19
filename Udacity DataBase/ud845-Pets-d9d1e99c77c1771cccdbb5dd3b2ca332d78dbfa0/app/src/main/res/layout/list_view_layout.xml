@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:layout_marginBottom="25dp">
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dog Name:"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+    <TextView
+        android:id="@+id/Breed_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Breed: "
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+    <TextView
+        android:id="@+id/gender_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender: " />
+
+    <TextView
+        android:id="@+id/weight_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight: " />
+</LinearLayout>

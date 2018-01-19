@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CD853F"
+    android:id="@+id/mainn"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CD853F"
+    android:orientation="vertical"
+    tools:context="com.example.soman.bussinessapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/burgermain"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/chickenburger2"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/editt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Name Here"
+
+            />
+
+        <Button
+            android:id="@+id/buttonName"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Click To Display"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Text Will Apper Here"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textColor="#8B0000"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/titleResturant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="@string/mainTitle"
+        android:textAlignment="center"
+        android:textColor="#8B0000"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/slogan"
+        android:textColor="#8B0000"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/phoneImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:src="@mipmap/unnamed1" />
+
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/phoneImage"
+            android:text="@string/phoneNo"
+            android:textColor="#8B0000"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/emailImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/emailicon" />
+
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/emailImage"
+            android:text="@string/email"
+            android:textColor="#8B0000"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/locationImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="80dp"
+            android:src="@mipmap/locationpin" />
+
+        <TextView
+            android:id="@+id/addressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="80dp"
+            android:layout_toRightOf="@id/locationImage"
+            android:text="@string/address"
+            android:textColor="#8B0000"
+            android:textSize="20dp" />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.soman.implicentintent.MainActivity">
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type a Message......"
+        />
+
+    <Button
+        android:id="@+id/emailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SendEmail"
+        android:text="Click To Send Email" />
+
+    <Button
+        android:id="@+id/browserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OpenBrowser"
+        android:text="Open IN Browser" />
+
+</LinearLayout>

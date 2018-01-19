@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CD853F"
+    tools:context="com.example.soman.bussinessapp.NameActivity">
+    <ImageView
+        android:id="@+id/titleImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/chickenburger2"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/maintitlee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Burger Thick Burger (BTB)"
+        android:textSize="45dp"
+        android:textColor="#8B0000"
+        android:layout_below="@+id/titleImage"
+        android:gravity="center"/>
+
+        />
+    <EditText
+        android:id="@+id/textname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:ems="15"
+        android:textSize="40dp"
+        android:textColor="#8B0000"
+        android:layout_below="@+id/maintitlee"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ActivityChangeButton"
+        android:layout_below="@+id/textname"
+        android:text="Click To Proceed"
+        android:textSize="25dp"
+        android:textColor="#8B0000"
+        android:layout_marginTop="20dp"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"/>
+
+</RelativeLayout>

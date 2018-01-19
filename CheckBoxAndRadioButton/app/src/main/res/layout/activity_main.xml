@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.soman.checkboxandradiobutton.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Hello World!"
+        android:layout_weight="0.5
+"
+        android:textSize="40sp"/>
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Check me"
+        android:textSize="25sp"
+        android:buttonTint="@color/colorPrimaryDark"
+        android:onClick="onClickCheckBox"
+        android:layout_weight="0.25"/>
+
+    <RadioButton
+
+        android:id="@+id/radi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="Click Me"
+        android:textColorLink="@color/yellow"
+        android:textIsSelectable="false"
+        android:onClick="onClickRadioButton"
+        android:layout_weight="0.25"
+     android:layoutDirection="rtl"
+        android:textAlignment="textEnd"
+        android:textSize="25sp"/>
+
+</LinearLayout>

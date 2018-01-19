@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.soman.sharedprefrencesexample.MainActivity">
+
+
+    <EditText
+
+        android:id="@+id/email_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:selectAllOnFocus="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <EditText
+        android:id="@+id/Password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/Remember_Me_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember Me" />
+
+    <Button
+        android:id="@+id/sign_in_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "sign-in" />
+
+    <Button
+        android:id="@+id/pref_data_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display Prefrence Data" />
+
+    <TextView
+        android:id="@+id/pref_data_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:visibility="visible" />
+</LinearLayout>

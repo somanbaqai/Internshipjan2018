@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BussinessApp</string>
+    <string name="slogan">Our burgers will make your taste buds dance! Enjoy the best grilled meat at BTB</string>
+    <string name="mainTitle">Big Thick Burger (BTB)</string>
+    <string name="phoneNo">+92341-3160187</string>
+    <string name="email">soman.baqai@gmail.com</string>
+    <string name="address">Address: Lane 21 Shop No: 24, Khayaban-e-Hilal, DHA Phase VI,Karachi, Pakistan</string>
+</resources>
